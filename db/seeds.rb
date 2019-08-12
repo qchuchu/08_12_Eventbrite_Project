@@ -5,10 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-require 'faker'
-
-DatabaseCleaner.clean_with(:truncation)
-
 first_names = ['Memphis', 'Moussa', 'Bertrand', 'Houssem', 'Lucas', 'Thiago', 'Youssouf', 'Jason', 'Joachim', 'Léo']
 
 last_names = ['Depay', 'Dembélé', 'Traoré', 'Aouar', 'Tousart', 'Mendes', 'Koné', 'Denayer', 'Andersen', 'Dubois']
