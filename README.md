@@ -19,7 +19,7 @@ Pour que tout se passe bien, voici quelques instructions à suivre
 
 ### 1) Git clone mon repository sur ton PC
 
-`git clone git@github.com:qchuchu/08_12_THP_Eventbrite_Project.git`
+`git clone git@github.com:qchuchu/08_12_Eventbrite_Project.git`
 
 ### 2) Bundle Install, Creation de BDD, Migration & Seeds
 
