@@ -10,4 +10,8 @@ class Event < ApplicationRecord
   validates :description, presence: true, length: { in: 20..1000 }
   validates :price, presence: true, numericality: { only_integer: true, greater_than: 0, less_than_or_equal_to: 1000 }
   validates :location, presence: true
+
+  def end_date
+    self.start_date + self.duration * 60
+  end
 end

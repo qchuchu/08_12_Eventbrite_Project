@@ -1,0 +1,34 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col text-center">
+      <h1>Créer un nouvel événément</h1>
+    </div>
+  </div>
+  <%= simple_form_for @event, method: :post do |f| %>
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <%= f.input :title, label: 'Title', class: 'form-control' %>
+      </div>
+      <div class="form-group col-md-4">
+        <%= f.input :location, label: 'Location', class: 'form-control' %>
+      </div>
+      <div class="form-group col-md-4">
+        <%= f.input :price, class: 'form-control' %>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <%= f.input :start_date, label: 'Start Date', class: 'form-control' %>
+      </div>
+      <div class="form-group col-md-6">
+        <%= f.input :duration, label: 'Duration (in minutes)', class: 'form-control' %>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col">
+        <%= f.input :description, label: 'Description', class: 'form-control' %>
+      </div>
+    </div>
+    <%= f.button :submit, class: 'btn btn-primary' %>
+  <% end %>
+</div>
