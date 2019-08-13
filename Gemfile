@@ -68,10 +68,13 @@ group :development do
   gem "binding_of_caller"
 end
 
-gem 'database_cleaner'
 gem 'faker'
 gem 'table_print'
 gem 'database_cleaner'
 gem 'pry'
 gem 'simple_form'
 gem 'i18n'
+gem 'devise'
+gem 'bootstrap'
+gem 'jquery-rails'
+gem 'sprockets-rails'

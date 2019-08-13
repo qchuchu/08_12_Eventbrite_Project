@@ -1,0 +1,18 @@
+@import "bootstrap";
+
+.header-image {
+  background-image: url('https://burst.shopifycdn.com/photos/prism-goggles-at-concert.jpg?width=925&format=pjpg&exif=1&iptc=1');
+  background-attachment: fixed;
+  background-position: 0px -300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.header-title {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 30%;
+  margin: auto;
+}
