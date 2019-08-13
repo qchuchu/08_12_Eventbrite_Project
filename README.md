@@ -1,24 +1,46 @@
-# README
+# ___THP - The Gossip Project___
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Creation Date : 2019/08/12 </br>
 
-Things you may want to cover:
+> Last Update Date : 2019/08/13 </br>
 
-* Ruby version
+> Author : Quentin Churet </br>
 
-* System dependencies
+> **Description** : This WebApp Rails have been created for the 6th week of The Hacking Project. It's a copy of the event manager website Eventbrite </br>
 
-* Configuration
+Le site est également disponible à l'adresse http://chuchu-eventbrite.herokuapp.com
 
-* Database creation
+-------------------------------------------------------
 
-* Database initialization
+## Information pour les correcteurs
 
-* How to run the test suite
+Aaaaaand we are today with the correcteur, comment vas-tu aujourd'hui? Tout le monde il t'aime bien tu le sais. </br>
+Pour que tout se passe bien, voici quelques instructions à suivre
 
-* Services (job queues, cache servers, search engines, etc.)
+### 1) Git clone mon repository sur ton PC
 
-* Deployment instructions
+`git clone git@github.com:qchuchu/08_12_THP_Eventbrite.git`
 
-* ...
+### 2) Bundle Install, Creation de BDD, Migration & Seeds
+
+D'abord on installe toutes les gems
+
+`bundle install`
+
+Puis on crée la Base de Données
+
+`rails db:create`
+
+Ensuite on effectue toutes les migrations
+
+`rails db:migrate`
+
+Et on termine par un petit seeds pour remplir toute la base de données
+
+`rails db:seed`
+
+### 3) On lance le serveur
+
+`rails server`
+
+Et on se rend directement sur http://localhost:3000
